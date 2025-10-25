@@ -1,0 +1,8 @@
+package com.vtech.abstraction.abstractclass;
+
+public class EmployeeRunner {
+	public static void main(String[] args) {
+		Employee developer = new Developer();
+		developer.work();
+	}
+}

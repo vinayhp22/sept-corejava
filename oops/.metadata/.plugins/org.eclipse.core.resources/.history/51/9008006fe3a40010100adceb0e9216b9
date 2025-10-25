@@ -1,0 +1,21 @@
+package com.vtech.encapsulation;
+
+public class MovieTicketRunner {
+
+	public static void main(String[] args) {
+		MovieTicket ticket1 = new MovieTicket();
+		String[] actors = new String[]{"Rishab Shetty", "Rukmini Vasanth"};
+		ticket1.setTicketPrice(200);
+		ticket1.setMovieName("Kantara Chapter 1");
+		ticket1.setSeatNumber("L10");
+		ticket1.setTheatreName("Sandya Theatre, Madivala");
+		ticket1.setActors(actors);
+		
+		System.out.println(ticket1.getMovieName());
+		System.out.println(ticket1.getSeatNumber());
+		System.out.println(ticket1.getTheatreName());
+		System.out.println(ticket1.getTicketPrice());
+		System.out.println(ticket1.getActors());
+	}
+
+}

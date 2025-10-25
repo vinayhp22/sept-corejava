@@ -1,0 +1,9 @@
+package com.vtech.associations;
+
+public class Student {
+	public Student(String name) {
+		System.out.println(name);
+	}
+}
+
+//Teacher teaches Student

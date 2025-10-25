@@ -1,0 +1,9 @@
+package com.vtech.associations.aggregation;
+
+public class Teacher {
+	String name;
+	int agel
+	public Teacher(String name) {
+		this.name = name;
+	}
+}

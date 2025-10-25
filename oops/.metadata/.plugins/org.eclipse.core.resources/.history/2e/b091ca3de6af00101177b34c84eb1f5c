@@ -1,0 +1,10 @@
+package com.vtech.associations.aggregation;
+
+public class Library {
+
+	Book book;
+	
+	public Library(String name) {
+		book = new Book(name);
+	}
+}

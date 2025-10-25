@@ -1,0 +1,50 @@
+package com.vtech.encapsulation;
+
+public class MovieTicket {
+
+	private double ticketPrice; 
+	private String seatNumber;
+	private String TheatreName; 
+	private String movieName;
+	private String[] actors;
+	
+	public void setTicketPrice(double ticketPrice) {
+		this.ticketPrice = ticketPrice;
+	}
+	
+	public void setSeatNumber(String seatNumber) {
+		this.seatNumber = seatNumber;
+	}
+	
+	public void setTheatreName(String theatreName) {
+		TheatreName = theatreName;
+	}
+	
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+	
+	public void setActors(String[] actors) {
+		this.actors = actors;
+	}
+	
+	public double getTicketPrice() {
+		return ticketPrice;
+	}
+	
+	public String getSeatNumber() {
+		return seatNumber;
+	}
+	
+	public String getTheatreName() {
+		return TheatreName;
+	}
+	
+	public String getMovieName() {
+		return movieName;
+	}
+	
+	public String[] getActors() {
+		return actors;
+	}
+}

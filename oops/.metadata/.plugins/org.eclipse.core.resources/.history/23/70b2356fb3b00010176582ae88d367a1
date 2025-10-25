@@ -1,0 +1,21 @@
+package com.vtech.associations.combined;
+
+public class College {
+
+	private String collegeName;
+	private Student student; //Composition
+	private Department department; //Aggregation
+	
+	public College(String collegeName, Department department) {
+		super();
+		this.collegeName = collegeName;
+		this.student = new Student(studentName); // creating new object -> composition
+		this.department = department; // assigning value via const -> aggregation
+	}
+	
+	public void display() {
+		System.out.println("College Name: "+ this.collegeName);
+		System.out.println("Student Name: "+this.student.getName());
+		System.out.println("Department Name: "+this.department.getDeptName());
+	}
+}

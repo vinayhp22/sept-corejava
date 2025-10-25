@@ -1,0 +1,15 @@
+package com.vtech.associations.combined;
+
+public class College {
+
+	private String collegeName;
+	private Student student;
+	private Department department;
+	
+	public College(String collegeName, String studentName, Department department) {
+		super();
+		this.collegeName = collegeName;
+		this.student = new Student(studentName);
+		this.department = department;
+	}
+}

@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Vtech\java\oops\.metadata\.plugins\org.eclipse.jdt.core
+3948177282.index
+1857080022.index
+1865797976.index
+2701284951.index
+2011860298.index
+715054231.index
+1780596766.index
+858178207.index

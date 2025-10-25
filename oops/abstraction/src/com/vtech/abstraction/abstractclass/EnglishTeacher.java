@@ -1,0 +1,10 @@
+package com.vtech.abstraction.abstractclass;
+
+public class EnglishTeacher extends Teacher{
+
+	@Override
+	void teaches() {
+		System.out.println("English Teacher teaches Grammer.");
+		
+	}
+}

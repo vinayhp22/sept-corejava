@@ -1,0 +1,9 @@
+package com.vtech.associations.aggregation;
+
+public class Human {
+	private Heart heart;
+	
+	public Human() {
+		new Heart();
+	}
+}

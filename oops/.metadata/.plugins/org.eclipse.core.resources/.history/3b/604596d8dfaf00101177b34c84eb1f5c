@@ -1,0 +1,21 @@
+package com.vtech.associations;
+
+public class Student {
+	String name;
+	public Student(String name) {
+		this.name = name;
+	}
+	
+	public static void main(String[] args) {
+		Teacher guru = new Teacher("Guru");
+		System.out.print(" teaches ");
+		Student shishya = new Student("Shishya");
+		
+	}
+}
+
+//Teacher teaches Student
+// A Doctor works in Hosital
+// A Custormer has a Bank Account
+
+

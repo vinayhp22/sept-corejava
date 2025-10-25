@@ -1,0 +1,6 @@
+package com.vtech.abstraction.interfaceex;
+
+public class CreditCardPayment implements Payment{
+	
+
+}

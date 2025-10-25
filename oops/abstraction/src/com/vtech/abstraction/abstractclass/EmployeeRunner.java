@@ -1,0 +1,13 @@
+package com.vtech.abstraction.abstractclass;
+
+public class EmployeeRunner {
+	public static void main(String[] args) {
+		Employee developer = new Developer();
+		developer.work();
+	}
+}
+
+//Output:
+//	Employee Constructor called
+//	Developer Constructor Called
+//	Developer writes code.

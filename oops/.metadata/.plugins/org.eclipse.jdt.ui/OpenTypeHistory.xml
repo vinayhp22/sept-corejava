@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=polymorphism/src&lt;com.vtech.polymorphism.overriding{Bank.java[Bank" modifiers="1" timestamp="1760684937441"/>
+    <typeInfo handle="=polymorphism/src&lt;com.vtech.polymorphism.overloading{Vehicle.java[Vehicle" modifiers="1" timestamp="1760601913846"/>
+    <typeInfo handle="=polymorphism/src&lt;com.vtech.polymorphism.overriding{Animal.java[Animal" modifiers="1" timestamp="1760688076992"/>
+    <typeInfo handle="=abstraction/src&lt;com.vtech.abstraction.abstractclass{ATM.java[ATM" modifiers="1025" timestamp="1761029646944"/>
+    <typeInfo handle="=abstraction/src&lt;com.vtech.abstraction.interfaceex{Payment.java[Payment" modifiers="513" timestamp="1761034000411"/>
+    <typeInfo handle="=abstraction/src&lt;com.vtech.abstraction.abstractclass{Employee.java[Employee" modifiers="1025" timestamp="1760775147271"/>
+</typeInfoHistroy>

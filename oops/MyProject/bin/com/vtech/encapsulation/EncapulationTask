@@ -1,0 +1,8 @@
+Task:
+	1. Pen - price, color, brand, type, isRefillable
+	2. Sports - sportName, teamMembers, tournamentName, priceMoney, winner, isIndoor
+	3. MovieTicket - ticketPrice, seatNumber, TheatreName, movieName, actorName(arrays)
+	4. plant - name, height, isVegetablePlant, typeOfLeaves, typesOfFlowers
+	5. ToothPaste - color, brand, price, size, isMadeInIndia
+	
+Apply Encapsulation for above objects/classes (Data Hiding + abstrction(business logic))

@@ -1,0 +1,24 @@
+package com.vtech.encapsulation;
+
+import java.util.Scanner;
+
+public class DynamicArrayExample {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the array size?");
+		int size = sc.nextInt();
+		sc.nextLine();
+		String[] names = new String[size];
+		
+		for (int i = 0; i < names.length; i++) {
+			System.out.println("Enter "+(i+1)+"th name");
+			names[i] = sc.nextLine();
+		}
+		
+		System.out.println("=======Names=======");
+		for (int i = 0; i < names.length; i++) {
+			System.out.println(names[i]);
+		}
+	}
+}

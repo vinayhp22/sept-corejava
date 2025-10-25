@@ -1,0 +1,11 @@
+package com.vtech.abstraction.abstractclass;
+
+public class SBIBank extends Bank {
+
+	
+	void rateOfInterest() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

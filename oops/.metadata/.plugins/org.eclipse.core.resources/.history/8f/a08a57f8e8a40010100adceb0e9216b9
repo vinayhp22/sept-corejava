@@ -1,0 +1,14 @@
+package com.vtech.encapsulation;
+
+import java.util.Scanner;
+
+public class ScannerExample {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		sc.next(); //leave \n
+		sc.nextInt(); //leave new line \n
+		sc.nextLine();
+	}
+}

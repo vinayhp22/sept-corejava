@@ -1,0 +1,8 @@
+package com.vtech.encapsulation;
+
+public class ReserseString {
+
+	public static void main(String[] args) {
+		String name = "Vtech";
+	}
+}

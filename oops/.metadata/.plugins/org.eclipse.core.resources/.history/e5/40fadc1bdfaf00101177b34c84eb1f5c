@@ -1,0 +1,7 @@
+package com.vtech.associations;
+
+public class Student {
+
+}
+
+//Teacher teaches Student

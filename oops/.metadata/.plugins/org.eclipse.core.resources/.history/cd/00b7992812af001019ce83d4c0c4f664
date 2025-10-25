@@ -1,0 +1,18 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Vehicle {
+	void start(); //abstract method
+	void stop();
+	
+	//default method - common features
+	public default void fuelType(){
+		System.out.println("Petrol");
+	}
+	
+	//static method - Utility purpose or helper logic
+	static void engineNo() {
+		System.out.println("ABC1234");
+	}
+	
+	private 
+}

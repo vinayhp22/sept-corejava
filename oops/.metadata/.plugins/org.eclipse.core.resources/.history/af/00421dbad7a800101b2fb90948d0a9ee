@@ -1,0 +1,8 @@
+package com.vtech.inheritance.superkeyword;
+
+public class Parent{
+	void show() {
+		System.out.println("Parent show method");
+	}
+
+}

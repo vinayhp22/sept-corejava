@@ -1,0 +1,15 @@
+package com.vtech.abstraction.abstractclass;
+
+public class SBIBank extends Bank {
+
+	@Override
+	void rateOfInterest() {
+		System.out.println("SBI rate of Interest : 6%");
+	}
+	
+	@Override
+	void welcome() {
+		System.out.println("Welcome to SBI Bank!!");
+	}
+
+}

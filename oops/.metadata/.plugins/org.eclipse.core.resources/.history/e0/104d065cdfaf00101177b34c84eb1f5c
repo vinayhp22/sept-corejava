@@ -1,0 +1,13 @@
+package com.vtech.associations;
+
+public class Student {
+	public Student(String name) {
+		System.out.println(name);
+	}
+	
+	public static void main(String[] args) {
+		syso
+	}
+}
+
+//Teacher teaches Student

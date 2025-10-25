@@ -1,0 +1,15 @@
+package com.vtech.abstraction.abstractclass;
+
+public class SBIATM extends ATM {
+
+	@Override
+	abstract void withdraw();
+
+	@Override
+	void checkbalance() {
+		System.out.println("Checking balance from SBI ATM");
+	}
+
+
+
+}

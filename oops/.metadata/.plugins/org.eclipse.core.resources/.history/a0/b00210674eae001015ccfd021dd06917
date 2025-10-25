@@ -1,0 +1,10 @@
+package com.vtech.abstraction.abstractclass;
+
+public class EnglishTeacher {
+
+	@Override
+	void teaches() {
+		System.out.println("Math Teacher teches algebra & Calculus");
+		
+	}
+}

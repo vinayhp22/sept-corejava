@@ -1,0 +1,10 @@
+package com.vtech.associations.aggregation;
+
+public class Driver {
+
+	String name;
+	
+	public Driver() {
+		System.out.println("Driver.Driver():" + name);
+	}
+}

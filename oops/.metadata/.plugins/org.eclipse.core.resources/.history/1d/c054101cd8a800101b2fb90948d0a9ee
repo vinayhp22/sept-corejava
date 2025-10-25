@@ -1,0 +1,10 @@
+package com.vtech.inheritance.superkeyword;
+
+public class Runner {
+	public static void main(String[] args) {
+		Child p = new Child();
+	}
+}
+
+//Output: 
+//Child constructor

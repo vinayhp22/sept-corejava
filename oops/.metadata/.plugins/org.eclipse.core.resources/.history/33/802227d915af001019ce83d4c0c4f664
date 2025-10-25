@@ -1,0 +1,19 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Rocket {
+
+	default void launch() {
+		System.out.println("Burning is needed");
+		weight();
+	}
+	
+	static void run() {
+		System.out.println("Static method");
+	}
+	
+	//private 
+	private int weight() {
+		System.out.println("Private method called by default method");
+		return 30;
+	}
+}

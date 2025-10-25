@@ -1,0 +1,23 @@
+package com.vtech.abstraction.abstractclass;
+
+public class HDFCATM extends ATM {
+
+	@Override
+	void withdraw() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void checkbalance() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	void deposit() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

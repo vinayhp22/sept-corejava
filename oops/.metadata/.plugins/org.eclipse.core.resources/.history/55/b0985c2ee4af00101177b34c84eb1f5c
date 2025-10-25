@@ -1,0 +1,10 @@
+package com.vtech.associations.aggregation;
+
+public class Department {
+	String name;
+	Teacher teacher;
+	public Department(String name, Teacher teacher) {
+		this.name = name;
+		this.teacher = teacher
+	}
+}

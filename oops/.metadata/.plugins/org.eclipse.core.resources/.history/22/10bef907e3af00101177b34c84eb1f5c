@@ -1,0 +1,15 @@
+package com.vtech.associations;
+
+public class Student {
+	String name;
+	public Student(String name) {
+		this.name = name;
+	}
+	
+}
+
+//Teacher teaches Student
+// A Doctor works in Hosital
+// A Custormer has a Bank Account
+
+

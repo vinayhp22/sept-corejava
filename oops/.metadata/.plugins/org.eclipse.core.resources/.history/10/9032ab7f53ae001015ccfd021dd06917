@@ -1,0 +1,6 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Vehicle {
+	void start();
+	void stop();
+}

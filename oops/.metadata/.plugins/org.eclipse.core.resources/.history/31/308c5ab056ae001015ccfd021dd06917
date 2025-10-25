@@ -1,0 +1,9 @@
+package com.vtech.abstraction.interfaceex;
+
+public class MultipleInheritanceRunner implements Printable, Showable {
+
+	@Override
+	public void print() {
+		System.out.println("Printing...");
+	}
+}

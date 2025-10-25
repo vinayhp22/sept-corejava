@@ -1,0 +1,8 @@
+package com.vtech.encapsulation;
+
+public class DynamicArrayExample {
+
+	public static void main(String[] args) {
+		
+	}
+}

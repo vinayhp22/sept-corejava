@@ -1,0 +1,10 @@
+package com.vtech.polymorphism.overriding;
+
+public class Child extends Parent {
+	@Override
+	public void marry() {
+		super.marry();
+		System.out.println("But, I'll prefer Love marriage");
+	}
+
+}

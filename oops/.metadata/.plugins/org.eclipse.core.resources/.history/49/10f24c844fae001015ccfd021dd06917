@@ -1,0 +1,5 @@
+package com.vtech.abstraction.interfaceex;
+
+public class ChildClass implements InterfaceName{
+
+}

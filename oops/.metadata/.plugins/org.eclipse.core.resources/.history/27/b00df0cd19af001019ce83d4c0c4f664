@@ -1,0 +1,14 @@
+package com.vtech.abstraction.interfaceex;
+
+public class PaymentGatewayRunner {
+
+	public static void main(String[] args) {
+		UpiPaymentGateway upi = new UpiPaymentGateway();
+		upi.processPayment(500);
+		upi.generateReceipt(500);
+		
+		
+		System.out.println("Is valid ID? " +
+		PaymentGateway.validatePaymentId("PAY1234"));
+	}
+}

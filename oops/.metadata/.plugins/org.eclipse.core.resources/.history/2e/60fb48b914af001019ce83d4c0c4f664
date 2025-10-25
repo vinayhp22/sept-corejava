@@ -1,0 +1,15 @@
+package com.vtech.abstraction.interfaceex;
+
+public class DiwaliRocket implements Rocket{
+
+	@Override
+	public void launch() {
+		Rocket.super.launch();
+	}
+	
+	public static void main(String[] args) {
+		DiwaliRocket obj = new DiwaliRocket();
+		obj.launch();
+	}
+
+}

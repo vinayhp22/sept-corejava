@@ -1,0 +1,10 @@
+package com.vtech.abstraction.interfaceex;
+
+public class DiwaliRocket implements Rocket{
+
+	@Override
+	public void launch() {
+		Rocket.super.launch();
+	}
+
+}

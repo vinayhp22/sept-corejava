@@ -1,0 +1,10 @@
+package com.vtech.associations.aggregation;
+
+public class Car {
+	
+	Driver driver;
+	
+	public Car(Driver driver) {
+		this.driver = driver;
+	}
+}

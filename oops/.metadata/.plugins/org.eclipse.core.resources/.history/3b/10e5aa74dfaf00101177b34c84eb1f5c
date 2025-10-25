@@ -1,0 +1,15 @@
+package com.vtech.associations;
+
+public class Student {
+	public Student(String name) {
+		System.out.println(name);
+	}
+	
+	public static void main(String[] args) {
+		Teacher guru = new Teacher("Guru");
+		Student shishya = new Student("Shishya");
+		System.out.println(guru + "teaches"+shishya);
+	}
+}
+
+//Teacher teaches Student

@@ -1,0 +1,6 @@
+package com.vtech.inheritance.superkeyword;
+
+public class Parent{
+	int num = 100;
+
+}

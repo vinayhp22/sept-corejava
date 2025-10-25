@@ -1,0 +1,10 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Vehicle {
+	void start(); //abstract method
+	void stop();
+	
+	default void fuelType(){
+		System.out.println("Petrol");
+	}
+}

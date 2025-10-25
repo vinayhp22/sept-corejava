@@ -1,0 +1,15 @@
+package com.vtech.abstraction.abstractclass;
+
+public class ATMRunner {
+	public static void main(String[] args) {
+		ATM sbiatm = new SBIATM();
+		sbiatm.insertCard();
+		sbiatm.checkbalance();
+		sbiatm.withdraw();
+		
+		ATM hdfcatm = new HDFCATM();
+		hdfcatm.insertCard();
+		hdfcatm.checkbalance();
+		hdfcatm.withdraw();
+	}
+}

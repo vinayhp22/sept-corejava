@@ -1,0 +1,8 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface MathUtil {
+
+	static void square(int x) {
+		return x * x;
+	}
+}

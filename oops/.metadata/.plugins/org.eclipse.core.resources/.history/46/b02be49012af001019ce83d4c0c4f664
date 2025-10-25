@@ -1,0 +1,12 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Calculator {
+	
+	default void addition(int x, int y) {
+		add(x, y)l
+	}
+	
+	private int add(int x, int y) {
+		return x+y;
+	}
+}

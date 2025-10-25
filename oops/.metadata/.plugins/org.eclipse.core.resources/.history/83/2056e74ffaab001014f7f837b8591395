@@ -1,0 +1,11 @@
+package com.vtech.abstraction.abstractclass;
+
+public class Developer extends Employee {
+
+	@Override
+	void work() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

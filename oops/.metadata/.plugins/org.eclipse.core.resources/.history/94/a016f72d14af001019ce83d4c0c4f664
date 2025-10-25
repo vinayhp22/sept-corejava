@@ -1,0 +1,13 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Rocket {
+
+	default void launch() {
+		System.out.println("Burning is needed");
+	};
+	
+	
+	private int weight() {
+		return 30;
+	}
+}

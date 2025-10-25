@@ -1,0 +1,8 @@
+package com.vtech.associations;
+
+public class Teacher {
+	String name;
+	public Teacher(String name) {
+		this.name = name;
+	}
+}

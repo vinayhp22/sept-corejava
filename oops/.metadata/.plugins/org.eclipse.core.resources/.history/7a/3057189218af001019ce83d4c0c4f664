@@ -1,0 +1,20 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface PaymentGateway {
+
+	void processPayment(double amount);
+	
+	default void generateReceipt(double amount) {
+		log("Generating Receipt....");
+		System.out.println("Thanks for shoping with us, total amount is: "+amount);
+	}
+	
+	static void validatePaymentId() {
+		log("Validating Payment ID...");
+	}
+	
+	//Private helper method
+	private static void log(String msg) {
+		System.out.println("[Payment log]"+msg);
+	}
+}

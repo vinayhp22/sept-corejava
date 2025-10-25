@@ -1,0 +1,10 @@
+package com.vtech.encapsulation;
+
+public class MovieTicketRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

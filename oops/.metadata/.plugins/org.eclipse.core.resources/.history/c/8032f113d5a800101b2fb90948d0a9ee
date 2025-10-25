@@ -1,0 +1,5 @@
+package com.vtech.inheritance.superkeyword;
+
+public class Child extends Parent {
+	int num = 200;
+}

@@ -1,0 +1,14 @@
+package com.vtech.abstraction.interfaceex;
+
+public class DiwaliRocket implements Rocket{
+
+	@Override
+	public void launch() {
+		System.out.println("buring through matchbox");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

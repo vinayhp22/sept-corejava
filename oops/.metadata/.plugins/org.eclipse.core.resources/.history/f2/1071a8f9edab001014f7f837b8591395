@@ -1,0 +1,7 @@
+package com.vtech.abstraction.abstractclass;
+
+public class SBIATM extends ATM {
+
+
+
+}

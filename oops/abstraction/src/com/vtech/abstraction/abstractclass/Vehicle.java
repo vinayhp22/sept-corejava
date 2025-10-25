@@ -1,0 +1,12 @@
+package com.vtech.abstraction.abstractclass;
+
+public abstract class Vehicle {
+
+
+	abstract void start(); //abstract methods 
+	
+	//concrete methods
+	void fuel() {
+		System.out.println("Fueled up!!");
+	}
+}

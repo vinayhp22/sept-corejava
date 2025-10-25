@@ -1,0 +1,7 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface InterfaceName {
+
+	void method1(); //abstract method
+	void method2(); //abstract method
+}

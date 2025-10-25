@@ -1,0 +1,13 @@
+package com.vtech.polymorphism.overriding;
+
+public class ParentChildRunner {
+	public static void main(String[] args) {
+		Parent c = new Child(); // reference is parent, but object is Child
+		c.marry(); //Decided at runtime -> child marry()
+	}
+	public static int main(int[] args) {
+		Parent c = new Child(); // reference is parent, but object is Child
+		c.marry(); //Decided at runtime -> child marry()
+		return 0;
+	}
+}

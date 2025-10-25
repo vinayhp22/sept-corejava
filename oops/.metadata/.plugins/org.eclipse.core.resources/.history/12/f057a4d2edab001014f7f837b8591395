@@ -1,0 +1,5 @@
+package com.vtech.abstraction.abstractclass;
+
+public abstract class ATM {
+	abstract void withdraw();
+}

@@ -1,0 +1,47 @@
+package com.vtech.encapsulation;
+
+import java.util.Scanner;
+
+public class MovieTicketRunner {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Movie Name: ");
+		String name = sc.nextLine();
+		System.out.println("Enter Seat Number");
+		String seatNumber = sc.nextLine();
+		
+		System.out.println("Enter Theatre name");
+		String theatreName = sc.nextLine();
+		
+		System.out.println("Enter Ticket Price");
+		double ticketPrice = sc.nextDouble();
+		
+		System.out.println("Enter how many actors are there");
+		int actorCount = sc.nextInt();
+		String[] actors = new String[actorCount];
+		for(int i = 0; i<actorCount; i++) {
+			System.out.println("Enter "+i+1+" actor name:");
+			String actorName = sc.nextLine();
+			actors[i] = actorName;
+		}
+		
+		
+		
+		MovieTicket ticket1 = new MovieTicket();
+		ticket1.setTicketPrice(ticketPrice);
+		ticket1.setMovieName(name);
+		ticket1.setSeatNumber(seatNumber);
+		ticket1.setTheatreName(theatreName);
+		ticket1.setActors(actors);
+		
+		System.out.println(ticket1.getMovieName());
+		System.out.println(ticket1.getSeatNumber());
+		System.out.println(ticket1.getTheatreName());
+		System.out.println(ticket1.getTicketPrice());
+		for(int i = 0; i < ticket1.getActors().length; i++) {
+			System.out.println(ticket1.getActors()[i]);
+		}
+	}
+}

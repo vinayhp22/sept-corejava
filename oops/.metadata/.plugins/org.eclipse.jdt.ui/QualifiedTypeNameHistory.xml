@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.vtech.encapsulation.Laptop"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.vtech.inheritance.bankloanex.BankLoan"/>
+    <fullyQualifiedTypeName name="com.vtech.inheritance.bankloanex.HomeLoan"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.vtech.Customer"/>
+    <fullyQualifiedTypeName name="com.vtech.MobileCustomer"/>
+    <fullyQualifiedTypeName name="com.vtech.Mobile"/>
+    <fullyQualifiedTypeName name="com.vtech.Android"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overloading.CycleHelmet"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overloading.Helmet"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overriding.HDFC"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overriding.Vehicle"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overriding.ElectricVehicle"/>
+    <fullyQualifiedTypeName name="com.vtech.polymorphism.overriding.Child"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.abstractclass.Vehicle"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.abstractclass.SBIATM"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.abstractclass.HDFCATM"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.CreditCardPayment"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.UpiPayment"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.Payment"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.abstractclass.Developer"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.Calculator"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.CalculatorRunner"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.DiwaliRocket"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.Rocket"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.MathUtil"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.UpiPaymentGateway"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.PaymentGateway"/>
+    <fullyQualifiedTypeName name="com.vtech.abstraction.interfaceex.CardPayment"/>
+    <fullyQualifiedTypeName name="com.vtech.associations.aggregation.Driver"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="com.vtech.associations.combined.Student"/>
+    <fullyQualifiedTypeName name="com.vtech.associations.combined.Department"/>
+    <fullyQualifiedTypeName name="com.vtech.associations.combined.College"/>
+</qualifiedTypeNameHistroy>

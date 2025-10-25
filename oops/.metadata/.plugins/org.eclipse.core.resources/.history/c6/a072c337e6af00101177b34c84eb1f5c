@@ -1,0 +1,6 @@
+package com.vtech.associations.aggregation;
+
+public class Library {
+
+	Book book;
+}

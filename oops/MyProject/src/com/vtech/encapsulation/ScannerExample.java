@@ -1,0 +1,26 @@
+package com.vtech.encapsulation;
+
+import java.util.Scanner;
+
+public class ScannerExample {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter first name");
+		String firstName = sc.nextLine(); //leaves a new line - space 
+		System.out.println("Enter second name");
+		
+		String secondName = sc.nextLine();
+		
+		System.out.println("Enter your age");
+		int age = sc.nextInt(); //leaves a new line
+		sc.nextLine();
+		System.out.println("Enter the sport name");
+		String sport = sc.nextLine();
+		
+		
+		
+		System.out.println("Full Name: "+firstName+" "+secondName);
+	}
+}

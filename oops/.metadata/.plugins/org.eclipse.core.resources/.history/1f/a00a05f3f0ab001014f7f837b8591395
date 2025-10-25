@@ -1,0 +1,6 @@
+package com.vtech.abstraction.interfaceex;
+
+public interface Payment {
+	//abstact and public method
+	void payment(double amount);
+}
